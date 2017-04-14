@@ -9,7 +9,7 @@ setwd("/Documents/Travail/R/github/personal_site")
 rmarkdown::render_site()
 
 
-#Let's add all the files to our git staging area
+@#Let's add all the files to our git staging area
 #git add -A #the -A flag tells it git you want everything
 
 #Now we can commit
