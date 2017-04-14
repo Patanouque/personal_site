@@ -15,9 +15,11 @@ $$Y = \alpha \cdot \sin(t), \alpha = 0,0.1,0.2,...,3$$
 ```{r include=FALSE, echo = FALSE, fig.align='center'}
 library(tidyverse)
 library(quantmod)
+library(dygraphs)
+library(shiny)
 ```
 
-```{r , echo = FALSE, fig.align='center'}
+```{r echo = FALSE, fig.align='center'}
 cool_function <- function(x, alpha) return(sin(alpha*x))
 xs <- seq(0, pi*1.5, 0.005)
 ys <- cool_function(xs, 1)
@@ -36,5 +38,6 @@ ggplot(results, aes(x = xs, y = ys, color = alpha)) +
   theme_bw() + 
   theme(legend.position="none")
 getSymbols('AMZN')
-plotly(AMZN)
+dygraph(AMZN)
+actionButton("action", label = "Action")
 ```
