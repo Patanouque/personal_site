@@ -25,4 +25,4 @@ thumbnail("Grape", "images/grape.png", "https://en.wikipedia.org/wiki/Grape")
 thumbnail("Peach", "images/peche.png", "https://en.wikipedia.org/wiki/Peach")
 ```
 
-```
+
