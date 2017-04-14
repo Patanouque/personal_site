@@ -240,17 +240,23 @@ $(document).ready(function () {
 
 
 <p>Why I am awesome. te7</p>
-<pre class="r"><code>library(htmltools)
-thumbnail &lt;- function(title, img, href, caption = TRUE) {
-  div(class = &quot;col-sm-4&quot;,
-      a(class = &quot;thumbnail&quot;, title = title, href = href,
-        img(src = img),
-        div(class = ifelse(caption, &quot;caption&quot;, &quot;&quot;),
-          ifelse(caption, title, &quot;&quot;)
-        )
-      )
-  )
-}</code></pre>
+<p><div class="col-sm-4">
+<a class="thumbnail" title="Apple" href="https://en.wikipedia.org/wiki/Apple">
+<img src="images/apple.png"/>
+<div class="caption">Apple</div>
+</a>
+</div><div class="col-sm-4">
+<a class="thumbnail" title="Grape" href="https://en.wikipedia.org/wiki/Grape">
+<img src="images/grape.png"/>
+<div class="caption">Grape</div>
+</a>
+</div><div class="col-sm-4">
+<a class="thumbnail" title="Peach" href="https://en.wikipedia.org/wiki/Peach">
+<img src="images/peach.png"/>
+<div class="caption">Peach</div>
+</a>
+</div></p>
+<p>```</p>
 
 <p>Copyright &copy; 2017 Patanouque, Inc. All rights reserved.</p>
 
