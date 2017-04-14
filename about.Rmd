@@ -2,5 +2,4 @@
 title: "About Me"
 ---
 
-Why I am awesome. te7jhlzedhjlvbqdsc
-pipi 
+Why I am awesome. te7jhlzedhjlvbqdsc pipi 
