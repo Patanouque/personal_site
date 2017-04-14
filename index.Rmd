@@ -14,6 +14,7 @@ $$Y = \alpha \cdot \sin(t), \alpha = 0,0.1,0.2,...,3$$
 # Test de graph
 ```{r include=FALSE, echo = FALSE, fig.align='center'}
 library(tidyverse)
+library(quantmod)
 ```
 
 ```{r , echo = FALSE, fig.align='center'}
@@ -34,4 +35,6 @@ ggplot(results, aes(x = xs, y = ys, color = alpha)) +
   geom_line() + 
   theme_bw() + 
   theme(legend.position="none")
+getSymbols('AMZN')
+plotly(AMZN)
 ```
