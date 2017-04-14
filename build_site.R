@@ -6,3 +6,13 @@ setwd("/Documents/Travail/R/github/personal_site")
 
 #render your sweet site. 
 rmarkdown::render_site()
+
+
+#Let's add all the files to our git staging area
+git add -A #the -A flag tells it git you want everything
+
+#Now we can commit
+git commit -m "My first website commit. The begining of greatness"
+
+#Now we push. Note the addendum to normal pushing
+git push origin master
