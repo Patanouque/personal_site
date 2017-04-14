@@ -7,7 +7,8 @@ Hello, World!
 
 __Look at how cool this plot is!__
 
-$$Y = \alpha \cdot \sin(X), \alpha = 0,0.1,0.2,...,3$$
+$$Y = \alpha \cdot \sin(t), \alpha = 0,0.1,0.2,...,3$$
+
 
 
 # Test de graph
