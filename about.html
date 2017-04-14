@@ -240,6 +240,17 @@ $(document).ready(function () {
 
 
 <p>Why I am awesome. te7</p>
+<pre class="r"><code>library(htmltools)
+thumbnail &lt;- function(title, img, href, caption = TRUE) {
+  div(class = &quot;col-sm-4&quot;,
+      a(class = &quot;thumbnail&quot;, title = title, href = href,
+        img(src = img),
+        div(class = ifelse(caption, &quot;caption&quot;, &quot;&quot;),
+          ifelse(caption, title, &quot;&quot;)
+        )
+      )
+  )
+}</code></pre>
 
 <p>Copyright &copy; 2017 Patanouque, Inc. All rights reserved.</p>
 
