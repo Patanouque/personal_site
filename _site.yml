@@ -9,6 +9,8 @@ navbar:
     - text: "About Me"
       icon: fa-info
       href: about.html
+    - text: "Projets"
+      href: projets.html
     - text: "More"
       icon: fa-gear
       menu:
