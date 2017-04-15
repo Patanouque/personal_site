@@ -1,4 +1,5 @@
 name: "patanouque-website"
+include: ["fonctions.R"]
 output_dir: "."
 navbar:
   title: "Le site de Patanouque"
