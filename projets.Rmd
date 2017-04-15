@@ -5,10 +5,9 @@ title: "Projects"
 
 ```{r, echo=FALSE}
 source("fonctions.r")
-thumbnail("Apple", "images/pomme.jpg", "https://en.wikipedia.org/wiki/Apple")
+thumbnail("Apple", "images/grape.png", "https://en.wikipedia.org/wiki/Apple")
 thumbnail("Grape", "images/grape.png", "https://en.wikipedia.org/wiki/Grape")
-thumbnail("Peach", "images/peche.png", "https://en.wikipedia.org/wiki/Peach")
-thumbnail("Apple", "images/pomme.jpg", "https://en.wikipedia.org/wiki/Apple")
+thumbnail("Peach", "images/grape.png", "https://en.wikipedia.org/wiki/Peach")
+thumbnail("Apple", "images/grape.png", "https://en.wikipedia.org/wiki/Apple")
 thumbnail("Grape", "images/grape.png", "https://en.wikipedia.org/wiki/Grape")
-thumbnail("Peach", "images/peche.png", "https://en.wikipedia.org/wiki/Peach")
 ```

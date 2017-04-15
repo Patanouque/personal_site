@@ -2,7 +2,7 @@ name: "patanouque-website"
 include: ["fonctions.R"]
 output_dir: "."
 navbar:
-  title: "Le site de Patanouque"
+  title: "My website"
   left:
     - text: "Home"
       icon: fa-home
@@ -10,7 +10,7 @@ navbar:
     - text: "About Me"
       icon: fa-info
       href: about.html
-    - text: "Projets"
+    - text: "Projects"
       href: projets.html
     - text: "More"
       icon: fa-gear
