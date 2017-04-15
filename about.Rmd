@@ -2,7 +2,7 @@
 title: "About Me"
 ---
 
-Why I am awesome. te7 
+
 
 ```{r, echo=FALSE}
 source("fonctions.r")
@@ -10,9 +10,9 @@ source("fonctions.r")
 
 
 ```{r, echo=FALSE}
-thumbnail("Apple", "images/pomme.jpg", "https://en.wikipedia.org/wiki/Apple")
+thumbnail("Apple", "images/grape.png", "https://en.wikipedia.org/wiki/Apple")
 thumbnail("Grape", "images/grape.png", "https://en.wikipedia.org/wiki/Grape")
-thumbnail("Peach", "images/peche.png", "https://en.wikipedia.org/wiki/Peach")
+thumbnail("Peach", "images/grape.png", "https://en.wikipedia.org/wiki/Peach")
 ```
 
 
