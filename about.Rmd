@@ -1,18 +1,26 @@
 ---
-title: "About Me"
+title: "Why Data Sciences ?"
 ---
-
-
-
 ```{r, echo=FALSE}
 source("fonctions.r")
+#https://www.forbes.com/sites/bernardmarr/2015/09/30/big-data-20-mind-boggling-facts-everyone-must-read/#78d5b08017b1
+#https://www.quora.com/Why-dont-big-management-consulting-firms-McKinsey-Bain-BCG-Deloitte-et-al-heavily-invest-in-data-science-expertise-especially-after-the-talk-from-Philip-Evans-from-BCG-and-all-the-Big-Data-hype
 ```
 
 
-```{r, echo=FALSE}
-thumbnail("Apple", "images/grape.png", "https://en.wikipedia.org/wiki/Apple")
-thumbnail("Grape", "images/grape.png", "https://en.wikipedia.org/wiki/Grape")
-thumbnail("Peach", "images/grape.png", "https://en.wikipedia.org/wiki/Peach")
-```
+The field of data science is evolving into one of the fastest-growing and most in-demand fields in the world. Organizations across industries are looking to make sense of the data they can now collect from new technologies – from predicting the next hot product to determining the risk of an infectious disease outbreak.
+The data volumes are exploding, more data has been created in the past two years than in the entire previous history of the human race.
+Within five years there will be over 50 billion smart connected devices in the world, all developed to collect, analyze and share data.
+At the moment less than 0.5% of all data is ever analysed and used, just imagine the potential here.
+
+[Philip Evans: How data will transform business](https://www.ted.com/talks/philip_evans_how_data_will_transform_business)
+
+# Data science in management consulting
+
+Whereas there are a lot of problems can be solved by simple exploratory analysis and summarizing, there are problems that are too complex to be solved just by that. Unfortunately, most consultants think any data analysis beyond excel should be done by “Specialists”. While I agree that consultants shouldn’t be required to know even the typical “big data” stuff (neural network, etc.), all consultants should learn to acquire a statistical mind, and some basic statistical methodology (typically these methodology deals with “small data”, easily op-enable by excel) would be a big bonus. To be more specific, let me focus on a classic part of statistical analysis - the “multivariate analysis” (this is a very loose term academically, I am using it to avoid too much technical details.) , and give examples why a “statistical mind” is absolutely necessary and “basic statistical methodology” will be a big bonus.
+
+**Example**:
+Consultants are very good at analyzing multiple variables one by one: The scatter plot – consultant’s favorite tool, only takes one variable (e.g. price) into account for a response variable (e.g. profit margin). A matrix takes two variables at max. At the same time, consultants are not as good at analyzing multiple variables all together. Considering you are analyzing a problem why a company’s revenue is dropping – a typical MBB-consultant will start segmenting the problem by products, by channel, by Geography, by target customer group etc. and compare with industry average. But the sale of the company could be dropping not because of a certain product, a certain channel, or a certain customer group, but because of a certain customer segment in a particular region buying through a particular channel is dropping. (e.g. online purchase of Chinese male teenagers are dropping), This is the simplest multivariate analysis which does not require any statistical knowledge, but you need a statistical mind.
+
 
 

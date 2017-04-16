@@ -1,17 +1,12 @@
 ---
-title: "Patanouque's Website"
+title: "My personal website"
 ---
 
-Hello, World!
-
-
-__Look at how cool this plot is!__
-
-$$Y = \alpha \cdot \sin(t), \alpha = 0,0.1,0.2,...,3$$
+Hi, I'm Patanouque and this is my website dedicated to the use of R and data sciences for business.
 
 
 
-# Test de graph
+
 ```{r include=FALSE, echo = FALSE, fig.align='center'}
 library(tidyverse)
 library(quantmod)
@@ -21,5 +16,5 @@ library(shiny)
 
 ```{r echo = FALSE, fig.align='center'}
 
-actionButton("action", label = "Action")
+#actionButton("action", label = "Action")
 ```

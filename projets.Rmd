@@ -2,12 +2,10 @@
 title: "Projects"
 ---
 
+Here are some of the projects I worked on :
 
 ```{r, echo=FALSE}
 source("fonctions.r")
-thumbnail("Apple", "images/grape.png", "https://en.wikipedia.org/wiki/Apple")
-thumbnail("Grape", "images/grape.png", "https://en.wikipedia.org/wiki/Grape")
-thumbnail("Peach", "images/grape.png", "https://en.wikipedia.org/wiki/Peach")
-thumbnail("Apple", "images/grape.png", "https://en.wikipedia.org/wiki/Apple")
-thumbnail("Grape", "images/grape.png", "https://en.wikipedia.org/wiki/Grape")
+thumbnail("gene_expr_bicl", "images/genes.png", "https://patanouque.shinyapps.io/gene_expr_bicl/")
+
 ```

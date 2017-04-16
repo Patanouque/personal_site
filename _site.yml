@@ -7,11 +7,12 @@ navbar:
     - text: "Home"
       icon: fa-home
       href: index.html
-    - text: "About Me"
+    - text: "About"
       icon: fa-info
       href: about.html
     - text: "Projects"
       href: projets.html
+      icon: ion-ios-briefcase
     - text: "More"
       icon: fa-gear
       menu:
@@ -32,7 +33,7 @@ navbar:
       
 output:
   html_document:
-    theme: spacelab
+    theme: paper
     include:
-      after_body: footer.html
+      #after_body: footer.html
     css: styles.css
